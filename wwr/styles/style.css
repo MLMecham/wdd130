@@ -1,3 +1,8 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Roboto+Slab&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Roboto+Slab&display=swap');
+
+
 #content{
     width: 1600px;
     margin: 0 auto;
@@ -6,10 +11,17 @@
 .logo{
     width: 80px;
 }
+
+#logo_link {
+    padding-top: 5px;
+}
+
 nav a{
     text-align: center;
     color: black ;
     text-decoration: none;
+    font-family: 'Roboto Slab', serif;
+    padding: 35px;
 }
 
 nav a:hover {
@@ -20,12 +32,25 @@ nav a:hover {
 
 .home-title {
     color: black;
+    font-family: 'Grape Nuts', 'Roboto Slab', serif;
+    font-size: 2em;
+    margin-top: 10px;
+
 }
 
 
 
 body {
-background-color:#79C6D8;
+    background-color:#79C6D8;
+    font-family: 'Roboto Slab', sans-serif;
+    margin: 0;
+    padding:0 ''
+
+
+}
+
+h2 {
+    margin: 0;
 }
 
 header {
@@ -35,44 +60,60 @@ background-color: #FCE172;
 
 
 .book  { 
-background-color: #79C6D8;
-color: #FCE172;
-text-decoration: none;
+    background-color: #79C6D8;
+    color: #FCE172;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .join {
     background-color: #134266;
     color: #79C6D8;
     text-decoration: none;
+    font: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 
 .book:hover, .join:hover {
-background-color: #134266;
-color: #FCE172;
-text-decoration: underline;
+    background-color: #134266;
+    color: #FCE172;
+    text-decoration: underline;
 }
 
 
-#backgroung {
-background-color: #79C6D8;
+#background {
+    background-color: #79C6D8;
 }
 
 .msg {
-background-color: #134266;
+    background-color: #134266;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2 {
 
-color: #FCE172;
+    color: #FCE172;
+    font-family: 'Grape Nuts', 'Roboto Slab', serif;
 }
 
 .msg p {
     color: azure;
+    font-family: 'Roboto Slab', sans-serif, unset;
+    font: .8em;
+    padding-bottom: 15px;
 }
 
 footer{
-background-color: #FCE172;
+    background-color: #FCE172;
+    padding: 15px 50px;
+    margin-top: 200px;
 }
 
 footer p {
@@ -85,13 +126,17 @@ footer p {
 } */
 
 footer a {
-color: #134266;
-text-decoration: none;
+    color: #134266;
+    text-decoration: none;
 }
 
 footer p a:hover{
-color: #856A5D ;
-text-decoration: underline;
+    color: #856A5D ;
+    text-decoration: underline;
+}
+
+footer .social img {
+    padding-top: 15px;
 }
 
 #hero-msg h1, #hero-msg h4{
@@ -107,16 +152,32 @@ main section{
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+    
+}
+
 #background{
     height: 725px;
 }
 
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img{
     width: 100%
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}  
+
+.card-img {
+    border: 10px #856A5D;
+    
+    ;
 }
 
 /*
