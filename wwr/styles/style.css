@@ -1,14 +1,14 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Roboto+Slab&display=swap'); */
-
+/* Import fonts */
 @import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Roboto+Slab&display=swap');
 
-
-#content{
+/* Content styles */
+#content {
     width: 1600px;
     margin: 0 auto;
 }
 
-.logo{
+/* Logo styles */
+.logo {
     width: 80px;
 }
 
@@ -16,37 +16,34 @@
     padding-top: 5px;
 }
 
-nav a{
+/* Navigation styles */
+nav a {
     text-align: center;
-    color: black ;
+    color: black;
     text-decoration: none;
     font-family: 'Roboto Slab', serif;
     padding: 35px;
 }
 
 nav a:hover {
-    background-color: #134266 ;
+    background-color: #134266;
     color: #FCE172;
+}
 
-    }
-
+/* Home title styles */
 .home-title {
     color: black;
     font-family: 'Grape Nuts', 'Roboto Slab', serif;
     font-size: 2em;
     margin-top: 10px;
-
 }
 
-
-
+/* Body styles */
 body {
-    background-color:#79C6D8;
+    background-color: #79C6D8;
     font-family: 'Roboto Slab', sans-serif;
     margin: 0;
-    padding:0 ''
-
-
+    padding: 0;
 }
 
 h2 {
@@ -54,14 +51,15 @@ h2 {
 }
 
 header {
-background-color: #FCE172;
+    background-color: #FCE172;
 }
 
 .mountains {
     margin-bottom: 200px;
 }
 
-.book  { 
+/* Button styles */
+.book, .join {
     background-color: #79C6D8;
     color: #FCE172;
     text-decoration: none;
@@ -69,19 +67,12 @@ background-color: #FCE172;
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
-    
 }
 
 .join {
     background-color: #134266;
     color: #79C6D8;
-    text-decoration: none;
-    font: 18px;
-    padding: 15px 30px;
-    margin-top: 50px;
-    border-radius: 5px;
 }
-
 
 .book:hover, .join:hover {
     background-color: #134266;
@@ -93,11 +84,12 @@ background-color: #FCE172;
     background-color: #856A5D;
 }
 
-
+/* Background styles */
 #background {
     background-color: #79C6D8;
 }
 
+/* Message styles */
 .msg {
     background-color: #134266;
     line-height: 1.5em;
@@ -105,19 +97,18 @@ background-color: #FCE172;
 }
 
 .msg h2 {
-
     color: #FCE172;
     font-family: 'Grape Nuts', 'Roboto Slab', serif;
 }
 
 .msg p {
     color: azure;
-    font-family: 'Roboto Slab', sans-serif, unset;
-    font: .8em;
+    font-size: 0.8em;
     padding-bottom: 15px;
 }
 
-footer{
+/* Footer styles */
+footer {
     background-color: #FCE172;
     padding: 15px 50px;
     margin-top: 200px;
@@ -127,18 +118,13 @@ footer p {
     font-size: 1.2em;
 }
 
-/* footer p a:hover{
-    text-decoration: underline;
-    color: #856A5D  ;
-} */
-
 footer a {
     color: #134266;
     text-decoration: none;
 }
 
-footer p a:hover{
-    color: #856A5D ;
+footer p a:hover {
+    color: #856A5D;
     text-decoration: underline;
 }
 
@@ -146,50 +132,43 @@ footer .social img {
     padding-top: 15px;
 }
 
-#hero-msg h1, #hero-msg h4{
+/* Hero message styles */
+#hero-msg h1, #hero-msg h4 {
     text-align: center;
 }
 
-
-.button-box{
+/* Button box styles */
+.button-box {
     text-align: center;
 }
 
-main section{
+/* Main section styles */
+main section {
     text-align: center;
 }
 
 main section img {
     box-sizing: border-box;
-    
 }
 
-#background{
+/* Additional styles */
+#background {
     height: 725px;
 }
 
-.icon{
+.icon {
     width: 80px;
     padding-top: 10px;
 }
 
-#hero-img{
-    width: 100%
+#hero-img {
+    width: 100%;
 }
 
 .rivers-card, .camping-card, .rapids-card {
     margin: 200px 0;
-}  
+}
 
 .card-img {
     border: 10px solid #856A5D;
-    
-    ;
 }
-
-/*
-#134266
-#FCE172
-#79C6D8
-#856A5D 
-*/
