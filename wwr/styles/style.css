@@ -57,7 +57,9 @@ header {
 background-color: #FCE172;
 }
 
-
+.mountains {
+    margin-bottom: 200px;
+}
 
 .book  { 
     background-color: #79C6D8;
@@ -67,6 +69,7 @@ background-color: #FCE172;
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
+    
 }
 
 .join {
@@ -84,6 +87,10 @@ background-color: #FCE172;
     background-color: #134266;
     color: #FCE172;
     text-decoration: underline;
+}
+
+.join:hover {
+    background-color: #856A5D;
 }
 
 
@@ -175,7 +182,7 @@ main section img {
 }  
 
 .card-img {
-    border: 10px #856A5D;
+    border: 10px solid #856A5D;
     
     ;
 }
