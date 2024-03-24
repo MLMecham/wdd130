@@ -6,10 +6,10 @@ Fonts are separated by a | */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #ff5757   ;
+  --primary-color: #afd2e9   ;
   --secondary-color: #ffde59 ;
   --accent1-color: #54464b;
-  --accent2-color: #afd2e9;
+  --accent2-color: #ff5757;
   /* extra color is Ash Gray b7cece */
 
   /* change the values below to your chosen font(s) */
